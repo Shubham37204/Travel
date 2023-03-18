@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#preloader {
+    position: fixed;
+    top: 5;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+#preloader::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #888;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.head {
+    background-color: #2c9bcc;
+    height: 70vh;
+}
+
+.dot {
+    color: white;
+    margin-left: 66pc;
+    margin-top: 7pc;
+    font-size: 12pc;
+}
+
+.background {
+    background-image: url("/img/p1.jpg");
+    width: 663px;
+    height: 103vh;
+    margin-left: 38pc;
+    margin-top: 5pc;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.circular {
+    width: 389px;
+    height: 341px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 27pc;
+    margin-left: -11pc;
+    border: 25px solid #2c9bcc;
+}
+
+.back {
+    background-color: #2c9bcc;
+    height: 110vh;
+    margin-top: 50pc;
+}
+
+.blue {
+    width: 219px;
+    height: 201px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: -11pc;
+    background-color: #2c9bcc;
+    margin-left: 2pc;
+    border: 25px solid #2c9bcc;
+}
+
+h2 {
+    margin-left: 30pc;
+    padding-top: 4pc;
+    color: white;
+    font-size: 2.05pc;
+}
+
+h4 {
+    margin-left: 19pc;
+    padding-top: 2pc;
+    color: white;
+    font-size: 6pc;
+}
+
+.travel {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2pc;
+}
+
+
+.fa-briefcase,
+.fa-plane-up,
+.fa-location-dot,
+.fa-suitcase-rolling {
+    margin-left: 7pc;
+    margin-top: 2pc;
+    font-size: 3pc;
+    color: #2c9bcc;
+}
+
+h3 {
+    margin-top: 2pc;
+    margin-left: 6pc;
+}
+
+p {
+    margin-top: 2pc;
+    font-size: 1.5pc;
+    margin-left: 1pc;
+}
+
+.TRAVEL,
+.BENEFITS,
+.ABOUT-US,
+.AWARDS {
+    border: 2px solid white;
+    background-color: white;
+    width: 22%;
+    height: 53vh;
+    border-radius: 1pc;
+}
+
+h1 {
+    margin-left: 30pc;
+    padding-top: 2pc;
+    color: black;
+    font-size: 2.05pc;
+}
+
+.p3 {
+    margin-top: 3pc;
+    margin-left: 19pc;
+    width: 50%;
+    height: 56vh;
+}
+
+.images {
+    display: flex;
+    margin-left: 19pc;
+}
+
+.p1,
+.p2,
+.p31,
+.p4,
+.p5,
+.p6 {
+    height: 12vh;
+    margin-right: 1pc;
+    margin-left: 0pc;
+}
+
+.Learn {
+    margin-left: 34pc;
+    margin-top: 2pc;
+    margin-bottom: 2pc;
+    padding: 1pc;
+    width: 19%;
+    height: 11vh;
+    color: black;
+    border-radius: 29px;
+    background-color: white;
+}
+
+.Learn:hover {
+    background-color: #2c9bcc;
+    color: white;
+    cursor: pointer;
+}
+
+.back1 {
+    background-color: #2c9bcc;
+    height: 84vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p9 {
+    height: 42vh;
+    width: 70%;
+    margin-top: 3pc;
+    margin-left: 5pc;
+    border-radius: 8pc;
+}
+
+.girl {
+    border: 2px solid white;
+    background-color: white;
+    height: 56vh;
+    margin-top: 5pc;
+    width: 31%;
+    margin-left: -2pc;
+}
+
+.girl1 {
+    border: 2px solid white;
+    background-color: white;
+    height: 56vh;
+    margin-top: 5pc;
+    width: 51%;
+    margin-left: -2pc;
+    margin-right: 4pc pc;
+}
+
+.style {
+    margin-top: 2pc;
+    margin-left: 2pc;
+    font-size: 1.5pc;
+}
+
+.call {
+    padding-top: 2pc;
+    padding-left: 1pc;
+    color: blue;
+    font-size: 2pc;
+}
+
+.number {
+    color: black;
+}
+
+.number:hover {
+    color: #2c9bcc;
+    cursor: pointer;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#box1 {
+    margin-left: -10pc;
+    width: 40pc;
+    margin-right: 5pc;
+    height: 89vh;
+    margin-top: 2pc;
+}
+
+#box2 {
+    margin-top: 2pc;
+    width: 40pc;
+    margin-right: -10pc;
+    margin-left: -13pc;
+}
+
+.box2 img {
+    height: 89vh;
+}
+
+#travel {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2pc;
+    margin-top: 2pc;
+}
+
+#trave2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2pc;
+}
+
+.back2 {
+    background-color: #2c9bcc;
+    height: 195vh;
+    margin-top: 4pc;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3pc;
+    padding-top: 2pc;
+}
+
+.fa-water {
+    margin-left: 39pc;
+    color: blue;
+    margin-top: 2pc;
+    font-size: 2pc;
+}
+
+.square {
+    height: 30vh;
+    margin-left: -8pc;
+    width: 140%;
+    margin-top: 0pc;
+}
+
+.side {
+    margin-left: -10pc;
+    margin-top: 1pc;
+    display: flex;
+    justify-content: space-around;
+}
+
+#back {
+    padding-top: 2pc;
+    border: 2px solid;
+    width: 15%;
+    padding-left: 11pc;
+    height: 73vh;
+    background-color: white;
+    border-radius: 21px;
+}
+
+
+.back3 {
+    background-color: #2c9bcc;
+    height: 130vh;
+    margin-top: 4pc;
+}
+
+h6 {
+    margin-left: -10pc;
+    font-size: 2pc;
+    margin-top: 3pc;
+}
+
+.break {
+    margin-top: 2pc;
+    font-size: 1.78pc;
+    margin-left: -10pc;
+}
+
+.href {
+    margin-left: -9pc;
+    margin-top: 7pc;
+    font-size: 2pc;
+}
+
+a {
+    color: gray;
+}
+
+#group {
+    display: flex;
+}
+
+img {
+    height: 49vh;
+    margin-left: 2pc;
+    margin-top: 2pc;
+}
+
+.details {
+    background-color: #888;
+    height: 50vh;
+    width: 60%;
+    margin-left: 14pc;
+    margin-top: 2pc;
+    border-radius: 19px;
+    margin-bottom: 2pc;
+}
+
+#details {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    display: grid;
+    margin-top: 2pc;
+}
+
+input {
+    margin-bottom: 2pc;
+    height: 6vh;
+    width: 163%;
+    padding-left: 2pc;
+    margin-left: -3pc;
+}
+
+#h6 {
+    margin-left: -7pc;
+    font-size: 2pc;
+    margin-top: 2pc;
+}
+
+.circular1 {
+    width: 200px;
+    height: 200px;
+    margin-left: -7pc;
+    border-radius: 50%;
+    border: 5px solid blue;
+    margin-top: -1pc;
+}
+
+
+#back5 {
+    padding-top: 2pc;
+    border: 2px solid;
+    width: 15%;
+    padding-left: 11pc;
+    height: 94vh;
+    background-color: white;
+    border-radius: 21px;
+}
